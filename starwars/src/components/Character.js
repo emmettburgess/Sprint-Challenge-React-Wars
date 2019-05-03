@@ -7,7 +7,7 @@ const Character = props => {
         <img src={props.character.img} alt="" />
         <div className="character-info">
             <h3>{props.character.name}</h3>
-            <Identity character={props.student} />
+            <Identity character={props.character} />
             <p>
                 <strong>Birth Year:</strong> {props.character.birth}
             </p>
