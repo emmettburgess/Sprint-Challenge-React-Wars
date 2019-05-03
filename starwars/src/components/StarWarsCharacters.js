@@ -100,4 +100,50 @@ const characters = [
         ]
     },
 
-]
+];
+
+class StarWarsCharacters extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            starWarsCharacters: characters,
+            name: "",
+            identity: "",
+            homeworld: "",
+            species: "",
+            birth: "",
+            films: "",
+        };
+    }
+
+    changeHandler = e => {
+        this.setState({
+            [e.target.name]: e.target.value
+        });
+    };
+
+    addCharacter = e => {
+        e.preventDefault();
+        this.setState({
+            starWarsCharacters: [
+                ...this.state.starWarsCharacters,
+                {
+                    name: this.state.name,
+                    identity: this.state.identity,
+                    homeworld: this.state.homeworld,
+                    species: this.state.species,
+                    birth: this.state.birth,
+                    films: this.state.films,
+                }
+            ],
+            name: "",
+            identity: "",
+            homeworld: "",
+            species: "",
+            birth: "",
+            films: "",
+        });
+    };
+}
+
+export default StarWarsCharacters;

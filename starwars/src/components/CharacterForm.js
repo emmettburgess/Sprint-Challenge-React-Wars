@@ -18,7 +18,7 @@ const CharacterForm = props => {
             <input
                 name="homeworld"
                 placeholder="Homeworld"
-                value={props.homeWorld}
+                value={props.homeworld}
                 onChange={props.changeHandler}
             />
             <input

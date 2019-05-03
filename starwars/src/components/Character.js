@@ -15,7 +15,7 @@ const Character = props => {
                 <strong>Identity:</strong> {props.character.birth}
             </p>
             <p>
-                <strong>Homeworld:</strong> {props.character.homeWorld}
+                <strong>Homeworld:</strong> {props.character.homeworld}
             </p>
             <p>
                 <strong>Species:</strong> {props.character.species}

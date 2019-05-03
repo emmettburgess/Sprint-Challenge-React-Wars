@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import CharacterForm from './components/CharacterForm';
 
 class App extends Component {
   constructor() {
@@ -33,9 +34,22 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <CharacterList starwarsCharacters={this.state.starwarsCharacters} />
+        <CharacterForm
+          addCharacter={this.addCharacter}
+          changeHandler={this.ChangeHandler}
+          name={this.state.name}
+          birth={this.state.birth}
+          identity={this.state.identity}
+          homeworld={this.state.homeworld}
+          species={this.state.species}
+          films={this.state.films}
+          />
       </div>
     );
   }
 }
+
+export default App;
 
 export default App;
