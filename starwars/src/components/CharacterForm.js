@@ -11,7 +11,7 @@ const CharacterForm = props => {
             />
             <input
                 name="identity"
-                placeholder="Hero or Villain?"
+                placeholder="Identity"
                 value={props.identity}
                 onChange={props.changeHandler}
             />
@@ -28,9 +28,15 @@ const CharacterForm = props => {
                 onChange={props.changeHandler}
             />
             <input
-                name="img"
-                placeholder="Picture"
-                value={props.img}
+                name="films"
+                placeholder="Film Appearances"
+                value={props.films}
+                onChange={props.changeHandler}
+            />
+            <input
+                name="birth"
+                placeholder="Birth Year"
+                value={props.birth}
                 onChange={props.changeHandler}
             />
 

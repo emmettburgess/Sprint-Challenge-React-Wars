@@ -12,6 +12,9 @@ const Character = props => {
                 <strong>Birth Year:</strong> {props.character.birth}
             </p>
             <p>
+                <strong>Identity:</strong> {props.character.birth}
+            </p>
+            <p>
                 <strong>Homeworld:</strong> {props.character.homeWorld}
             </p>
             <p>
