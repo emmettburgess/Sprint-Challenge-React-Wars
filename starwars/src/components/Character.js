@@ -21,7 +21,7 @@ const Character = props => {
                 <strong>Species:</strong> {props.character.species}
             </p>
             <p>
-                <strong>Films:</strong> {props.character.films}
+                <strong>Films:</strong> {props.character.films.join()}
             </p>
         </div>
         </div>

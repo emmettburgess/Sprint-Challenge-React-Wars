@@ -12,12 +12,12 @@ const characters = [
       species: "Human",
       birth: "19 BBY",
       films: [
-          "Revenge of the Sith",
-          "A New Hope",
-          "The Empire Strikes Back",
-          "Return of the Jedi",
-          "The Force Awakens",
-          "The Last Jedi",
+          " Revenge of the Sith",
+          " A New Hope",
+          " The Empire Strikes Back",
+          " Return of the Jedi",
+          " The Force Awakens",
+          " The Last Jedi",
       ]
   },
   {
@@ -27,12 +27,12 @@ const characters = [
       species: "Human",
       birth: "19 BBY",
       films: [
-          "Revenge of the Sith",
-          "A New Hope",
-          "The Empire Strikes Back",
-          "Return of the Jedi",
-          "The Force Awakens",
-          "The Last Jedi",
+          " Revenge of the Sith",
+          " A New Hope",
+          " The Empire Strikes Back",
+          " Return of the Jedi",
+          " The Force Awakens",
+          " The Last Jedi",
       ]
   },
   {
@@ -42,12 +42,12 @@ const characters = [
       species: "Human",
       birth: "32 BBY",
       films: [
-          "Revenge of the Sith",
-          "A New Hope",
-          "The Empire Strikes Back",
-          "Return of the Jedi",
-          "The Force Awakens",
-          "The Last Jedi",
+          " Revenge of the Sith",
+          " A New Hope",
+          " The Empire Strikes Back",
+          " Return of the Jedi",
+          " The Force Awakens",
+          " The Last Jedi",
       ]
   },
   {
@@ -57,12 +57,12 @@ const characters = [
       species: "Human",
       birth: "41 BBY",
       films: [
-          "The Phantom Menace",
-          "Attack of the Clones",
-          "Revenge of the Sith",
-          "A New Hope",
-          "The Empire Strikes Back",
-          "Return of the Jedi",
+          " The Phantom Menace",
+          " Attack of the Clones",
+          " Revenge of the Sith",
+          " A New Hope",
+          " The Empire Strikes Back",
+          " Return of the Jedi",
       ]
   },
   {
@@ -72,9 +72,9 @@ const characters = [
       species: "Human (clone)",
       birth: "32 BBY",
       films: [
-          "Attack of the Clones",
-          "The Empire Strikes Back",
-          "Return of the Jedi",
+          " Attack of the Clones",
+          " The Empire Strikes Back",
+          " Return of the Jedi",
       ]
   },
   {
@@ -84,8 +84,8 @@ const characters = [
       species: "Human",
       birth: "15 ABY",
       films: [
-          "The Force Awakens",
-          "The Last Jedi",
+          " The Force Awakens",
+          " The Last Jedi",
       ]
   },
   {
@@ -95,9 +95,9 @@ const characters = [
       species: "Hutt",
       birth: "600 BBY",
       films: [
-          "The Phantom Menace",
-          "A New Hope",
-          "Return of the Jedi",
+          " The Phantom Menace",
+          " A New Hope",
+          " Return of the Jedi",
       ]
   },
 
